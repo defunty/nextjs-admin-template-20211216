@@ -75,7 +75,7 @@ function (user, context, callback) {
 }
 ```
 
-```insert-user
+<!-- ```insert-user
 function (user, context, callback) {
   const userId = user.user_id;
   const nickname = user.nickname;
@@ -94,7 +94,7 @@ function (user, context, callback) {
 }
 ```
 
-Caution: Change "admin_secret" in insert-user rule
+Caution: Change "admin_secret" and "url" in insert-user rule -->
 
 ```sync-user
 function (user, context, callback) {
@@ -128,7 +128,7 @@ function (user, context, callback) {
 }
 ```
 
-Caution: Change "admin_secret" in insert-user rule
+Caution: Change "admin_secret" and "url" in sync-user rule
 
 
 - Generate JWT Config
