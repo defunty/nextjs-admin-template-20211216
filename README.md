@@ -9,6 +9,13 @@ This is nextjs-admin-template for myself.
 
 # provisioning
 
+```
+cp ./docker/docker-compose.yaml ./
+
+# "./docker/docker-compose.yaml" is template.
+# Use and change "./docker-compose.yaml" as your environment.
+```
+
 ## Hasura
 
 - Change TZ in docker-compose.yaml.
@@ -141,7 +148,7 @@ https://hasura.io/jwt-config/
 
 - Set JWT config as environment variables
 ```
-cp ./docker/docker-compose.yaml ./
+HASURA_GRAPHQL_JWT_SECRET: '{"type":~~~'
 ```
 
 ```docker-compose.yaml
