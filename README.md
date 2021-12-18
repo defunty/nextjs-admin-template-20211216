@@ -75,7 +75,11 @@ function (user, context, callback) {
 }
 ```
 
-<!-- ```insert-user
+<!--
+Is it same sync-user?
+(In hasura tutorial, in the Japanese document.)
+
+ ```insert-user
 function (user, context, callback) {
   const userId = user.user_id;
   const nickname = user.nickname;
