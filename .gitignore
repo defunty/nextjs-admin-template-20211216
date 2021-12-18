@@ -34,5 +34,6 @@ yarn-error.log*
 .vercel
 
 #docker
-/docker
+/docker/db
 /docker-compose.yaml
+
